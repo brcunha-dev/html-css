@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <style>
+        #texto1{
+            background-color: aqua;   
+        }
+        abbr{
+            text-decoration: none;
+        }
+    </style>
+    <h1>Principais formatações</h1>
+    <h2>Negrito</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B que é não semântica. Nesta frase tenho um <strong>termo em destaque</strong> que é semântica.</p>
+    <h2>Itálico|Destaque</h2>
+    <p>Nessa frase temos um <i>termo em itálico</i> usando a tag I que é não semântica. Nesta frase temos um <em>termo em destaque</em> usando a tag EM que é semântica.</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem um <mark id="texto1">texto marcado</mark> usando a tag MARK.</p>
+    <p>Um <mark>texto marcado</mark> sem id na tag MARK.</p>
+    <p>Existe tambem o <u>sublinhado</u> com a tag não semântica U. Nessa frase o <ins>sublinhado</ins> usa a tag INS semântica.</p>
+    <p>X<sup>20</sup>+3</p>
+    <p>H<sub>2</sub>O</p>
+
+    <h2>Citações e Códigos</h2>
+    <p>Nessa parágrafo vamos tratar de citações e códigos (como usar a tag code para mostrar códigos numa página HTML)</p>
+    <h2>Código-fonte</h2>
+    <p><code>document.getElementById('teste')</code> é escrito em JavaScript</p>
+    <pre>
+        <code>
+    num=int(input('Digite um número:'))
+    if num / 2 ==0;
+        print('O número (num) é par')
+    else
+        print('O número (num) é impar')
+    print('Fim do programa');
+        </code>
+    </pre>
+    <h2>Citações em frases</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeph Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/I8xhVj9qTUQC?hl=pt-BR&gbpv=1&dq=html+para+leigos+Jeff+noble&pg=PA72&printsec=frontcover">
+        A diferença entre elementos inline e um bloco detexto é importante. Os elementos HTML nesse capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+</body>
+</html>
