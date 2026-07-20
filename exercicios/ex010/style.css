@@ -1,21 +1,29 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'ethno';
+    src: url(fontes/ethnocentric-Regular.otf) format(opentype);
+    font-weight: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1{
-    font-family: "Roboto";
-    font-size: 1.9em;
+    text-align: center;
+    font: normal 2em 'ethno';
 }
 
 h2{
-    font: bold 1.8em "Raleway";
+    font: normal 1.8em 'ethno';
 }
 
 p{
    /*shorthand para fonte = font-style > font-weight > font-size > font-family*/
    font: italic 800 1.3em "Roboto";
+   text-align: justify;
+   text-indent: 20px;
 
 }
 
