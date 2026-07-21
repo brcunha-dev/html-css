@@ -10,6 +10,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+    background-image: linear-gradient(to right, brown, #680e0e);
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main > header{
+    background-color: bisque;
+    
+}
+
 h1{
     text-align: center;
     font: normal 2em 'ethno';
@@ -17,13 +34,15 @@ h1{
 
 h2{
     font: normal 1.8em 'ethno';
+    text-align: center;
 }
 
 p{
    /*shorthand para fonte = font-style > font-weight > font-size > font-family*/
    font: italic 800 1.3em "Roboto";
    text-align: justify;
-   text-indent: 20px;
+   text-indent: 1.3em;
+   line-height: 1.5;
 
 }
 
