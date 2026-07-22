@@ -22,19 +22,41 @@ main{
     border-radius: 10px;
 }
 
-main > header{
+#principal{
+    text-align: center;
+    font: normal 3em monospace;
     background-color: bisque;
-    
 }
 
 h1{
+    font: normal 1.8em 'ethno';
     text-align: center;
-    font: normal 2em 'ethno';
 }
 
 h2{
     font: normal 1.8em 'ethno';
     text-align: center;
+}
+
+.simples{
+    font: normal 2.2em monospace;
+    color: #4c0505;
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+
+.medio{
+    font: bold 2em arial;
+    color: #410c0c;
+    text-shadow: 1px 1px 2px #410c0c8d;
+    
+}
+
+.medio:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
 }
 
 p{
