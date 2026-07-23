@@ -28,3 +28,21 @@ div:hover{
 #d4:hover{
     color: red;
 }
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a::after{
+    content: '[link]';
+}
