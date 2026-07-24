@@ -24,7 +24,7 @@ main{
 
 #principal{
     text-align: center;
-    font: normal 3em monospace;
+    /*font: normal 3em monospace;*/
     background-color: bisque;
 }
 
