@@ -7,19 +7,22 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image: url(exercicios/ex014/imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
             background-size: cover;
+            background: black url(exercicios/ex014/imagens/wallpaper002.jpg) center center no-repeat fixed;
+
+            /*shorthand background
+            color>image>position>repeat>attachment
+            */
         }
         main{
-            background-color: white;
-            width: 400px;
+            background-color: transparent;
+            font-weight: bold;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
             border-radius: 10px;
+            backdrop-filter: blur(10px);
         }
     </style>
 </head>
@@ -27,6 +30,10 @@
     <main>
         <h1>Teste de Imagem de fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum inventore temporibus aliquam, illo aliquid repellat odio unde quos voluptate accusantium quia molestiae mollitia sit adipisci. Sequi autem neque non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, tenetur nihil voluptates, suscipit numquam quae modi dolorum aliquid temporibus laboriosam quam vitae nam atque! Delectus dicta velit cupiditate asperiores distinctio?</p>
+        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda est perferendis alias, obcaecati quisquam praesentium quaerat provident. Magni molestias asperiores natus magnam, autem provident itaque voluptas blanditiis sed dicta tenetur?</span><span>Tenetur et, atque id sequi necessitatibus nostrum aspernatur totam quaerat quisquam nemo minus corporis aut corrupti soluta quod iure voluptatum aliquam dolore, quidem tempore! Doloremque dicta quae culpa molestias id.</span><span>Impedit, eius iste repellendus officia modi provident saepe voluptatem accusamus id nulla quae dolore nobis laboriosam reprehenderit cumque ipsam nisi ipsa consequuntur? Nobis aperiam vero quidem saepe accusantium eveniet! Numquam!</span><span>Repellendus, voluptates dolor saepe quo error atque minus dolores qui nemo ea amet ab doloremque enim in praesentium! A aut saepe esse enim similique blanditiis temporibus et mollitia eos tempore!</span></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facilis beatae atque, ab ad placeat ullam iste repudiandae, enim natus eveniet repellendus culpa, fugit sed molestias magni possimus expedita? Beatae.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eligendi quis laborum corporis sit nostrum laudantium ipsum, cupiditate incidunt ipsam rerum necessitatibus voluptate dicta quisquam facere sunt itaque unde temporibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum fuga ipsa sapiente dicta ea sunt eveniet delectus. Libero, laboriosam quod. Et, culpa eveniet. Laudantium, exercitationem nobis. Odit, autem amet.</p>
     </main>
 </body>
 </html>
