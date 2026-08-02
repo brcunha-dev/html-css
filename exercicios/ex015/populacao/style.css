@@ -1,18 +1,42 @@
 @charset "utf-8";
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 table{
     width: 500px;
     border-collapse: collapse;
 }
 
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgrey;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* Posso usar 2n, even (par), odd (impar) */
+
+tbody >tr:nth-child(2n){
+    background-color: #656565;
+}
+
 thead, tfoot{
-    background-color: grey;
+    background-color: #3b3a3a;
     color: white;
 }
 
 td, th{
     border: 1px solid black;
     padding: 10px;
+}
+
+th.populacao{
+    width: 50px;
 }
 
 td.numero{
