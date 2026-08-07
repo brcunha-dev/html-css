@@ -8,13 +8,22 @@ table{
     border-collapse: collapse;
 }
 
+div#container{
+    overflow-x: auto;
+}
+
+col.cnome{
+    background-color: greenyellow;
+}
+
+col.csexo{
+    background-color: yellow;
+}
+
 caption{
     font-size: 1.3em;
     font-weight: bold;
     padding: 10px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
 }
 
 th, td{
