@@ -2,17 +2,22 @@
 
 div.container{
     background-color: lightsalmon;
-    height: 400px;
 
     display: flex;
     flex-flow: row wrap;
-    align-content: space-evenly;
 }
 
 div.item{
     background-color: lightblue;
     text-align: center;
     border: 1px solid black;
-    padding: 40px;
-    width: 30px;
+    padding: 20px;
+}
+
+#box-d{
+    order: -5;
+}
+
+#box-g{
+    order: -4;
 }
